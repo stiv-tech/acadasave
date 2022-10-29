@@ -1,0 +1,158 @@
+.nav-btn, .nav-btn2, .head-btn {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    padding: 7px 14px;
+    font-weight: 400;
+    font-size: 14px;
+    background: #fff;
+}
+
+.nav-btn2, .head-btn {
+    background: rgba(55, 43, 122, 0.882);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.nav-btn2:hover {
+    background-color: rgb(41, 41, 175);
+
+}
+.head-item {
+    color: rgba(55, 43, 122, 0.882);
+}
+.para-item {
+    color: rgba(0,0,0,0.3);
+
+}
+
+.head-btn {
+    text-transform: uppercase;
+    padding: 7px 35px;
+}
+
+.head-img {
+    width: 100%;
+}
+.shift {
+    margin: 5% auto;
+}
+.card-section h3{
+    color: #fff;
+}
+.card-section p{
+    color: #fff;
+}
+.card-body {
+    text-align: center;
+}
+.card-item {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    border-radius: 10px;
+}
+
+.card-item-footer {
+    background: #ee5564d3;
+    padding: 2px;
+}
+
+.my-section{
+    background: #5000CA;
+
+}
+.testimonial-sec{
+    display: flex;
+}
+.new-container {
+    position: relative;
+}
+.text-block{
+    position: absolute;
+    color: rgba(55, 43, 122, 0.882);
+    margin-top: 10%;
+    margin-left: 37%;
+}
+@media screen and (max-width: 650px){
+    .text-block{
+        margin-top: 300px;
+    } 
+    .head-img-1{
+        margin-top: 20px;
+    }
+    .reverse-sect{
+        flex-direction: column-reverse;
+    }
+    .shift-11 {
+        margin-top: 20px;
+    }
+}
+.head-img-1{
+    width: 60%;
+}
+.ark{
+    margin: 10% auto;
+}
+.shift-11{
+    margin: 5% auto
+}
+.agnes{
+    background-color: pink;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+.agnes-1{
+    background-color: blue;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+.stiv{
+    margin-top: 10%;
+}
+.card-footer{
+    text-align: center;
+    background-color: transparent;
+}
+.agnes-11{
+    background-color:crimson;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.klass{
+    text-align: center;
+}
+.tess{
+    font-size: 16px;
+    color: #fff;
+}
+.text-card{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    padding: 40px 58px;
+    
+}
+
+.fa-arrow-left, .fa-arrow-right{
+    padding: 10px 12px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    font-weight: 600;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.fa-arrow-left:hover, .fa-arrow-right:hover {
+    background-color: #5000CA;
+    color: #fff;
+}
+
+.testy{
+    background-color: #657f8b;
+}
+    
+.tessy{
+    display: flex;
+
+}
