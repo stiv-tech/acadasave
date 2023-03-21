@@ -262,7 +262,10 @@
         }
         .my-section1{
             height: 150vh;
-        }      
+        }  
+        .head-item-11{
+            display: none;
+        }    
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .foot-step-1{
