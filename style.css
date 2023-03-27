@@ -45,10 +45,10 @@
     margin: 5% auto;
 }
 .card-section h3{
-    color: #fff;
+    color: #5000CA;
 }
 .card-section p{
-    color: #fff;
+    color: #615d69;
 }
 .card-body {
     text-align: center;
@@ -75,6 +75,10 @@
 }
 
 .my-section{
+    background: #e3dbed;
+
+}
+.my-section-1{
     background: #5000CA;
 
 }
@@ -83,6 +87,7 @@
     position: relative;
 
 }
+
 .testimonial-sec{
     display: flex;
 }
@@ -226,7 +231,7 @@
     /* text-align: center; */
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 992px){
     .text-block{
         margin-top: 300px;
     } 
@@ -257,17 +262,17 @@
 
        
         .card-item{
-            height: 95vh;
+            height: auto;
             margin: 5%;
         }
         .my-section1{
-            height: 150vh;
+            height: 120vh;
         }  
         .head-item-11{
             display: none;
         }    
 }
-@media screen and (min-width: 768px) and (max-width: 1023px){
+/* @media screen and (min-width: 993px) and (max-width: px){
     .foot-step-1{
         display: none;
     }
@@ -281,7 +286,6 @@
         text-align: center;
     }
     .head-item-11{
-        /* margin-top: 100%; */
         display: none;
     }
     .card-section11{
@@ -292,12 +296,4 @@
     .shed{
         margin-top: 3%;
     }
-    
-    /* .row {
-        display: flex;
-      }
-      
-      .column {
-        flex: 20.3%;
-      } */
-}
+} */
