@@ -174,15 +174,34 @@
     
 
 .foot-step-1{
-    background-color: #5a7bd2;
+    background-color: rgb(81, 136, 239);
     padding: 25px 30px;
     border-radius: 10px;
     color: #fff;
     position: absolute;
     margin-left: 12%;
-    bottom: -3360.50px;
+    /* bottom: -3360.50px; */
+    top: 3950px;
    
 }
+
+/* .footer-box{
+    position: absolute;
+    top: 3970px;
+    left: 90px;
+}
+.box2{
+    background-color: rgb(81, 136, 239);
+    border-radius: 8px;
+}
+.another-button{
+    border-radius: 8px;
+    background-color: aliceblue;
+    color: cornflowerblue;
+    padding: 7px 35px;
+    outline: none;
+    border-color: aliceblue;
+} */
 .lassy{
     margin-top: 10%;
 }
@@ -255,11 +274,9 @@
     }
     .foot-step-1{
         display: none;
-        /* bottom: auto;
-        margin-left: 0%;
-        bottom: -7200px; */
+       
     }
-
+    
        
         .card-item{
             height: auto;
@@ -271,6 +288,14 @@
         .head-item-11{
             display: none;
         }    
+}
+@media only screen  and (max-width: 2300px){
+    .foot-step-1{
+        top: 3570px;
+        margin-left: 7%;
+        
+        
+    }
 }
 /* @media screen and (min-width: 993px) and (max-width: px){
     .foot-step-1{
